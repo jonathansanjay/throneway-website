@@ -80,7 +80,7 @@ export default function DonateCTA() {
               e.currentTarget.style.boxShadow = 'none'
             }}
           >
-            Support the Album
+            Support the Ministry
           </a>
         </motion.div>
       </div>

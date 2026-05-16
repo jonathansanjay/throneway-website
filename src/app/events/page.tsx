@@ -175,19 +175,7 @@ export default function EventsPage() {
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap gap-2">
-                    {upcoming.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="font-instrument text-[10px] tracking-[0.15em] uppercase px-3 py-1.5 rounded-sm"
-                        style={{ background: `${MAYA}12`, border: `1px solid ${MAYA}40`, color: `${MAYA}cc` }}
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-
-                  <div className="flex items-center gap-4 pt-2">
+<div className="flex items-center gap-4 pt-2">
                     <Link href="/contact" className="btn-primary w-fit">
                       RSVP / Get in Touch
                     </Link>

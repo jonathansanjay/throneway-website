@@ -3,14 +3,23 @@
 import { motion, type Variants } from 'framer-motion'
 import { SIX_PILLARS } from '@/lib/constants'
 
-// Photos matched to each pillar in order: Prayer, Word of God, Sacraments, Fellowship, Evangelisation, Option for the Poor
+// Photos matched to each pillar in order: Prayer, Word of God, Sacraments, Fellowship, Evangelization, Option for the Poor
 const PILLAR_PHOTOS = [
-  '/photos/Image.375.JPG',
+  '/photos/Image.175.JPG',
   '/photos/Image.364.JPG',
-  '/photos/Image.400.JPG',
-  '/photos/Image.170.JPG',
-  '/photos/Image.117.JPG',
+  '/photos/Image.382.JPG',
+  '/photos/Image.416.jpeg',
+  '/photos/Image.294.JPG',
   '/photos/Image.189.JPG',
+]
+
+const PILLAR_PHOTO_POSITIONS = [
+  'center',
+  'center',
+  'center',
+  'center',
+  '40% center',
+  'center',
 ]
 
 const cardVariants: Variants = {
@@ -51,7 +60,7 @@ export default function SixPillars() {
             className="font-nunito font-extrabold text-white-soft leading-tight"
             style={{ fontSize: 'clamp(2.5rem, 6vw, 4rem)' }}
           >
-            Our Six Pillars
+            Jesus Youth Six Pillars
           </h2>
           <p className="font-cormorant italic text-cream/55 mt-5 max-w-2xl mx-auto leading-relaxed" style={{ fontSize: 'clamp(1rem, 2.2vw, 1.2rem)' }}>
             &ldquo;Over the years, through its constant yearning and seeking, a refreshing spirituality has emerged within the Jesus Youth movement - drawn from the spirit of the Catholic Charismatic Renewal and the rich traditions of the Church.&rdquo;
@@ -86,6 +95,7 @@ export default function SixPillars() {
                   src={PILLAR_PHOTOS[i]}
                   alt={pillar.title}
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: PILLAR_PHOTO_POSITIONS[i] }}
                 />
                 <div className="absolute inset-0" style={{ background: 'rgba(45,1,72,0.22)' }} />
               </div>

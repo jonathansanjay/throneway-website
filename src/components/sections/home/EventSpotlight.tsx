@@ -76,19 +76,7 @@ export default function EventSpotlight() {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-2">
-              {event.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="font-instrument text-[10px] tracking-[0.15em] uppercase px-3 py-1.5 rounded-sm"
-                  style={{ background: `${MAYA}12`, border: `1px solid ${MAYA}40`, color: `${MAYA}cc` }}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-
-            <Link href="/events" className="btn-primary w-fit mt-2">
+<Link href="/events" className="btn-primary w-fit mt-2">
               Learn More &rarr;
             </Link>
           </motion.div>

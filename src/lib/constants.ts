@@ -47,7 +47,7 @@ export const SIX_PILLARS: Pillar[] = [
     description: 'Deep spiritual friendships and sustained life of communion through mutual support and encouragement.',
   },
   {
-    title: 'Evangelisation',
+    title: 'Evangelization',
     icon: 'megaphone',
     description: 'Sharing Jesus with others in genuine, simple, and innovative ways every day.',
   },

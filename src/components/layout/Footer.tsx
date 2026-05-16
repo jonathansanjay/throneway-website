@@ -172,7 +172,7 @@ export default function Footer() {
             className="font-instrument text-xs tracking-[0.12em] uppercase transition-colors duration-200"
             style={{ color: 'rgba(181,55,242,0.8)' }}
           >
-            Support the Album &rarr;
+            Support the Ministry &rarr;
           </a>
         </div>
       </div>
