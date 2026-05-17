@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import SixPillars from '@/components/sections/home/SixPillars'
 
 const ASSOCIATIONS = [
-  { name: 'Jesus Youth Canada', logo: '/logos/JY Logo.png', href: 'https://jesusyouth.ca', className: 'brightness-0 invert' },
+  { name: 'Jesus Youth Canada', logo: '/logos/JY Logo.png', href: 'https://jesusyouth.ca', className: 'brightness-0' },
   { name: 'Archdiocese of Toronto', logo: '/logos/arch-toronto-transparent.png', href: 'https://www.archtoronto.org', className: '' },
   { name: 'Vocations Toronto', logo: '/logos/vocations-toronto.png', href: 'https://www.vocationstoronto.ca', className: '' },
   { name: 'Office of Catholic Youth', logo: '/logos/ocy_transparent.png', href: 'https://ocytoronto.org/', className: '' },

@@ -37,10 +37,10 @@ function AmazonMusicIcon() {
 }
 
 const PLATFORMS = [
-  { name: 'Spotify', href: 'https://open.spotify.com/artist/52QRkOMy637alursB1Qybs?si=iBNtDDbTSYmS4m5ehM9UZQ', Icon: SpotifyIcon },
-  { name: 'Apple Music', href: 'https://music.apple.com/search?term=throneway', Icon: AppleMusicIcon },
-  { name: 'YouTube Music', href: 'https://music.youtube.com/search?q=throneway', Icon: YouTubeMusicIcon },
-  { name: 'Amazon Music', href: 'https://music.amazon.ca/search/throneway', Icon: AmazonMusicIcon },
+  { name: 'Spotify', href: 'https://open.spotify.com/track/22oYDCJVaABHguR5BaJPwJ', Icon: SpotifyIcon },
+  { name: 'Apple Music', href: 'https://music.apple.com/us/album/running-single/1894941851', Icon: AppleMusicIcon },
+  { name: 'YouTube Music', href: 'https://music.youtube.com/watch?v=dlatTPzjSyg&si=DD1NpYjr8EhIjr1r', Icon: YouTubeMusicIcon },
+  { name: 'Amazon Music', href: 'https://music.amazon.ca/albums/B0GXX6HH1D?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=CA&ref=dm_sh_e779swoylVU7W0J3eMyFtrCzD&trackAsin=B0GXXF13B3', Icon: AmazonMusicIcon },
 ]
 
 export default function RunningSection() {

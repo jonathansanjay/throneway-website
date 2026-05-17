@@ -70,7 +70,7 @@ export const UPCOMING_EVENTS: Event[] = [
     title: 'Throneway Heights',
     subtitle: 'Catholic Young Adult Gathering',
     description:
-      'An immersive evening of praise & worship, faith talks, prayer, and community - designed for young adults who want more in their faith life. Expect live music, amazing speakers, and the kind of fellowship that lasts.',
+      'An immersive evening of praise & worship, faith talks, prayer, and community - for young adults who want more in their faith life. Expect live music, amazing speakers, and the kind of fellowship that lasts.',
     location: "St. Gregory's Parish, Etobicoke",
     schedule: 'Every other Friday, 7–9 PM',
     ageGroup: '18+',

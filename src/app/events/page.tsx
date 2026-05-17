@@ -132,13 +132,13 @@ export default function EventsPage() {
                 {/* Left — Actual Heights poster */}
                 <div
                   className="lg:col-span-2 relative overflow-hidden"
-                  style={{ borderRight: `1px solid ${MAYA}20`, minHeight: '420px' }}
+                  style={{ borderRight: `1px solid ${MAYA}20` }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/heights-poster.png"
                     alt="Throneway Heights poster"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
+                    className="w-full block"
                   />
                   <div
                     className="absolute inset-0"
