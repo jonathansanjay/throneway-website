@@ -20,7 +20,7 @@ export const RUNNING_SINGLE: SingleRelease = {
   artist: 'Throneway',
   spotifyUrl: 'https://open.spotify.com/artist/52QRkOMy637alursB1Qybs?si=iBNtDDbTSYmS4m5ehM9UZQ',
   spotifyEmbedUrl: 'https://open.spotify.com/embed/track/22oYDCJVaABHguR5BaJPwJ',
-  description: 'Our debut single - a declaration of pursuit, surrender, and faith in motion.',
+  description: 'Our debut single. A cry of pursuit, surrender, and trust in the One worth running to.',
 }
 
 export const DONATE_URL = 'https://jycanada.breezechms.com/give/online?fund_id=2286215'
