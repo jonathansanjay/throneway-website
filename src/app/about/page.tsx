@@ -21,7 +21,7 @@ export default function AboutPage() {
       <section className="relative overflow-hidden" style={{ minHeight: '60vh' }}>
         <div className="absolute inset-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/photos/Image.129.JPG" alt="" className="w-full h-full object-cover object-center" aria-hidden />
+          <img src="/photos/Image.worship-crowd.JPG" alt="" className="w-full h-full object-cover object-center" aria-hidden />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(13,0,24,0.65) 0%, rgba(13,0,24,0.80) 55%, rgba(13,0,24,0.98) 100%)' }} />
           <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 40% 65%, rgba(181,55,242,0.14) 0%, transparent 60%)' }} />
         </div>

@@ -6,9 +6,9 @@ import { SIX_PILLARS } from '@/lib/constants'
 // Photos matched to each pillar in order: Prayer, Word of God, Sacraments, Fellowship, Evangelization, Option for the Poor
 const PILLAR_PHOTOS = [
   '/photos/Image.175.JPG',
-  '/photos/Image.364.JPG',
+  '/photos/Image.wordofgod.png',
   '/photos/Image.382.JPG',
-  '/photos/Image.416.jpeg',
+  '/photos/Image.fellowship.jpeg',
   '/photos/Image.294.JPG',
   '/photos/Image.189.JPG',
 ]
@@ -21,6 +21,8 @@ const PILLAR_PHOTO_POSITIONS = [
   '40% center',
   'center',
 ]
+
+const PILLAR_PHOTO_SCALES = [1, 1.2, 1, 1, 1, 1]
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 24 },
@@ -95,7 +97,7 @@ export default function SixPillars() {
                   src={PILLAR_PHOTOS[i]}
                   alt={pillar.title}
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: PILLAR_PHOTO_POSITIONS[i] }}
+                  style={{ objectPosition: PILLAR_PHOTO_POSITIONS[i], transform: `scale(${PILLAR_PHOTO_SCALES[i]})` }}
                 />
                 <div className="absolute inset-0" style={{ background: 'rgba(45,1,72,0.22)' }} />
               </div>
